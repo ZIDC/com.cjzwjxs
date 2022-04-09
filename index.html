@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+<link rel="shortcut icon" href="./images/APP.png"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="author" content="小赵" />
+  	<meta name="description" content="白简动漫，樱花动漫" />
+  	<meta name="keywords" content="白简动漫，樱花动漫" />
+    <link rel="stylesheet" href="./css/mdui.min.css"/>
+    <title>白简动漫-樱花动漫</title>
+</head>
+<body class="mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto">
+
+	<div class="mdui-appbar mdui-appbar-fixed mdui-text-color-text-theme mdui-shadow-0" style="transition:2s">
+  		<div class="mdui-toolbar">
+  			<button class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#main-drawer'}"><i class="mdui-icon material-icons">menu</i></button>
+    		<a href="javascript:;" class="mdui-typo-title" id="main-title">简放小说</a>
+    		<div class="mdui-toolbar-spacer"></div>
+    		<button class="mdui-btn mdui-btn-icon" mdui-menu="{target:'#main-menu'}"><i class="mdui-icon material-icons">more_vert</i></button>
+    		<ul class="mdui-menu" id="main-menu">
+              	<li class="mdui-menu-item" mdui-dialog="{target:'#post'}">
+                	<!--轮播css <a href="javascript:void(0);" class="mdui-ripple">公告·更新日志</a>-->
+                	<a href="javascript:void(0);" class="mdui-ripple">历史</a>
+              	</li>
+            </ul>
+  		</div>
+	</div>
+	
+	<div class="mdui-drawer" id="main-drawer">
+  		<ul class="mdui-list">
+        	<li class="mdui-subheader"></li>
+<!--轮播css
+        	<li class="mdui-list-item mdui-ripple" onclick="window.location.href='https://docs.example.com';">
+          		<i class="mdui-list-item-icon mdui-icon material-icons">book</i>
+          		<div class="mdui-list-item-content">文档</div>
+        	</li>
+        	<li class="mdui-list-item mdui-ripple" onclick="window.location.href='https://github.com/ZIDC/com.cjzwjxs/releases';">
+          		<i class="mdui-list-item-icon mdui-icon material-icons">cloud_download</i>
+          		<div class="mdui-list-item-content">下载</div>-->
+        	</li>
+       	</ul>
+        	<div class="mdui-subheader">Powered</div>
+        <div class="mdui-m-x-2">
+        	<div class="mdui-chip">
+				<!--轮播css<img class="mdui-chip-icon" src="https://github.com/ZIDC/com.cjzwjdm"/>
+				<span class="mdui-chip-title">小赵</span>-->
+			</div>
+			
+        	<div class="mdui-chip">
+				<span class="mdui-chip-icon">G</span>
+				<span class="mdui-chip-title">GitHub</span>
+			</div>
+		</div>
+  	</div>
+  	
+  	<div class="mdui-dialog" id="post">
+      	<div class="mdui-tab mdui-tab-full-width" mdui-tab>
+        	<a href="#updateLog" class="mdui-ripple">更新</a>
+        	<a href="#autherSay" class="mdui-ripple">说明</a>
+      	</div>
+      	<div id="autherSay" class="mdui-p-a-2 mdui-typo">
+        	<p>本APP将不进行维护，如出现问题请自行解决！</p>
+      	</div>
+      	<div id="updateLog" class="mdui-p-a-2">
+        	<ul class="mdui-list">
+
+
+
+
+
+  				<li class="mdui-list-item mdui-ripple"><a href="https://github.com/ZIDC/com.cjzwjxs/releases" >https://github.com/ZIDC/com.cjzwjxs/releases</a></li>
+  				<li class="mdui-divider"></li>
+
+
+
+
+
+
+
+
+			</ul>
+      	</div>
+    </div>
+  	
+  	<div class="mdui-color-white mdui-text-center" style="padding-top:120px;padding-bottom:30px;">
+  		<img class="mdui-shadow-8" src="./images/APP.png" width="80" height="80" style="border-radius:10px;" />
+  		<h2>简放小说</h2>
+  		<button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-tooltip="{content: 'v1.0'}" onclick="window.open('https://github.com/ZIDC/com.cjzwjdm/releases/download/untagged-5ee427e6379e723ec76f/4.722.apk')"><i class="mdui-icon material-icons">file_download</i> 下载</button>
+  	</div>
+  	
+  	<div class="mdui-container-fluid mdui-p-y-4 mdui-text-center mdui-color-white">
+  		<img class="mdui-img mdui-shadow-5" style="border-radius:5px;width:70%;height:auto;" src="./images/example-1.png" />
+  		<h2 class="mdui-text-color-theme">简洁</h2>
+  		<p>something</p>
+  		<img class="mdui-img mdui-shadow-5" style="border-radius:5px;width:70%;height:auto;" src="./images/example-2.png" />
+  		<h2 class="mdui-text-color-theme">大方</h2>
+  		<p>something</p>
+  		<img class="mdui-img mdui-shadow-5" style="border-radius:5px;width:70%;height:auto;" src="./images/example-3.png" />
+  		<h2 class="mdui-text-color-theme">漂亮</h2>
+  		<p>something</p>
+  		<img class="mdui-img mdui-shadow-5" style="border-radius:5px;width:70%;height:auto;" src="./images/example-4.png" />
+  		<h2 class="mdui-text-color-theme">美观</h2>
+  		<p>something</p>
+  		<img class="mdui-img mdui-shadow-5" style="border-radius:5px;width:70%;height:auto;" src="./images/example-5.png" />
+  		<h2 class="mdui-text-color-theme">...</h2>
+  		<p>something</p>
+  		
+  	</div>
+	
+	<!-- footer -->
+	<div class="mdui-p-y-2 mdui-color-theme mdui-text-color-white mdui-text-center">
+		<a class="mdui-btn mdui-btn-icon" href="mailto:2912105449@qq.com"><i class="mdui-icon material-icons">email</i></a><br>
+		<!-- 页脚 -->
+		<div id="footer">
+			<p>Copyright © <script>document.write( new Date().getFullYear() );</script> 简放小说  All rights reserved</a></p>
+
+		</div>
+	</div>
+	
+<!--
+vConsole控制台
+<script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js"></script>
+<script>
+var vConsole = new VConsole ();
+</script>
+-->
+	<script src="./js/mdui.min.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	  $(window).scroll(function(){
+	    var scrollTop = $(window).scrollTop();
+	   if (scrollTop < 100) {
+	      $(".mdui-appbar").removeClass("mdui-color-theme");
+          $(".mdui-appbar").addClass("mdui-text-color-black");
+          $(".mdui-appbar").removeClass("mdui-text-color-white")
+	   } else {
+	      $(".mdui-appbar").addClass("mdui-text-color-white");
+	      $(".mdui-appbar").addClass("mdui-color-theme");
+	      $(".mdui-appbar").removeClass("mdui-text-color-black");
+	   }
+	  });
+	</script>
+</body>
+</html>
